@@ -1,0 +1,15 @@
+blog_homepage:
+    path:     /
+    defaults: { _controller: BlogBundle:Default:index }
+user_codificador:
+    path:     /user/
+    defaults: { _controller: BlogBundle:Default:user}
+login:
+    path:     /admin/login/
+    defaults: { _controller: BlogBundle:Default:login}
+admin_zone:
+    path:     /admin/
+    defaults: { _controller: BlogBundle:Default:admin }
+conf_zone:
+    path:     /admin/conf
+    defaults: { _controller: BlogBundle:Default:conf}
